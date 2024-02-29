@@ -1,0 +1,19 @@
+{
+  "name": "pw-import-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "playwright": "cross-env npx playwright install && playwright test --config playwright.config.ts",
+    "playwright-ui": "cross-env npx playwright install && playwright test --config playwright.config.ts --ui "
+  },
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "1.42.0",
+    "@playwright/test": "1.42.0",
+    "@types/node": "20.11.23",
+    "cross-env": "7.0.3"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
